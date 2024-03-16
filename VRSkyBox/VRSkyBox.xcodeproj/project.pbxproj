@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C187C452B8E4BB30009AA6A /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 9C187C442B8E4BB30009AA6A /* RealityKitContent */; };
+		9C187C472B8E4BB30009AA6A /* VRSkyBoxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C187C462B8E4BB30009AA6A /* VRSkyBoxApp.swift */; };
+		9C187C492B8E4BB30009AA6A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C187C482B8E4BB30009AA6A /* ContentView.swift */; };
+		9C187C4B2B8E4BB30009AA6A /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C187C4A2B8E4BB30009AA6A /* ImmersiveView.swift */; };
+		9C187C4D2B8E4BB30009AA6A /* ImageBasedLighting.skybox in Resources */ = {isa = PBXBuildFile; fileRef = 9C187C4C2B8E4BB30009AA6A /* ImageBasedLighting.skybox */; };
+		9C187C4F2B8E4BB40009AA6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C187C4E2B8E4BB40009AA6A /* Assets.xcassets */; };
+		9C187C522B8E4BB40009AA6A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C187C512B8E4BB40009AA6A /* Preview Assets.xcassets */; };
+		9C187C5A2B8E64F10009AA6A /* SkyBoxControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C187C592B8E64F10009AA6A /* SkyBoxControlView.swift */; };
+		9CF1A7C02BA32F190011CD63 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 9CF1A7BF2BA32F190011CD63 /* Lottie */; };
+		9CF1A7C22BA330C50011CD63 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF1A7C12BA330C50011CD63 /* LottieView.swift */; };
+		9CF1A7C42BA3433B0011CD63 /* GifView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF1A7C32BA3433B0011CD63 /* GifView.swift */; };
+		9CF1A7C72BA3481A0011CD63 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 9CF1A7C62BA3481A0011CD63 /* SDWebImageSwiftUI */; };
+		9CF1A7CB2BA34AB80011CD63 /* ricky.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9CF1A7CA2BA34AB80011CD63 /* ricky.gif */; };
+		9CF1A7CD2BA3E9B40011CD63 /* Empty.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CF1A7CC2BA3E9B40011CD63 /* Empty.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9C187C3F2B8E4BB30009AA6A /* VRSkyBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VRSkyBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C187C432B8E4BB30009AA6A /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		9C187C462B8E4BB30009AA6A /* VRSkyBoxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VRSkyBoxApp.swift; sourceTree = "<group>"; };
+		9C187C482B8E4BB30009AA6A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9C187C4A2B8E4BB30009AA6A /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
+		9C187C4C2B8E4BB30009AA6A /* ImageBasedLighting.skybox */ = {isa = PBXFileReference; lastKnownFileType = file.skybox; path = ImageBasedLighting.skybox; sourceTree = "<group>"; };
+		9C187C4E2B8E4BB40009AA6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C187C512B8E4BB40009AA6A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9C187C532B8E4BB40009AA6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C187C592B8E64F10009AA6A /* SkyBoxControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyBoxControlView.swift; sourceTree = "<group>"; };
+		9CF1A7C12BA330C50011CD63 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		9CF1A7C32BA3433B0011CD63 /* GifView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifView.swift; sourceTree = "<group>"; };
+		9CF1A7CA2BA34AB80011CD63 /* ricky.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = ricky.gif; path = ../../../ricky.gif; sourceTree = "<group>"; };
+		9CF1A7CC2BA3E9B40011CD63 /* Empty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Empty.png; path = ../../../../Downloads/Empty.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C187C3C2B8E4BB30009AA6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CF1A7C72BA3481A0011CD63 /* SDWebImageSwiftUI in Frameworks */,
+				9C187C452B8E4BB30009AA6A /* RealityKitContent in Frameworks */,
+				9CF1A7C02BA32F190011CD63 /* Lottie in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C187C362B8E4BB30009AA6A = {
+			isa = PBXGroup;
+			children = (
+				9C187C412B8E4BB30009AA6A /* VRSkyBox */,
+				9C187C422B8E4BB30009AA6A /* Packages */,
+				9C187C402B8E4BB30009AA6A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C187C402B8E4BB30009AA6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C187C3F2B8E4BB30009AA6A /* VRSkyBox.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C187C412B8E4BB30009AA6A /* VRSkyBox */ = {
+			isa = PBXGroup;
+			children = (
+				9C187C462B8E4BB30009AA6A /* VRSkyBoxApp.swift */,
+				9C187C482B8E4BB30009AA6A /* ContentView.swift */,
+				9C187C4A2B8E4BB30009AA6A /* ImmersiveView.swift */,
+				9C187C592B8E64F10009AA6A /* SkyBoxControlView.swift */,
+				9CF1A7C32BA3433B0011CD63 /* GifView.swift */,
+				9CF1A7CC2BA3E9B40011CD63 /* Empty.png */,
+				9CF1A7CA2BA34AB80011CD63 /* ricky.gif */,
+				9CF1A7C12BA330C50011CD63 /* LottieView.swift */,
+				9C187C4C2B8E4BB30009AA6A /* ImageBasedLighting.skybox */,
+				9C187C4E2B8E4BB40009AA6A /* Assets.xcassets */,
+				9C187C532B8E4BB40009AA6A /* Info.plist */,
+				9C187C502B8E4BB40009AA6A /* Preview Content */,
+			);
+			path = VRSkyBox;
+			sourceTree = "<group>";
+		};
+		9C187C422B8E4BB30009AA6A /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				9C187C432B8E4BB30009AA6A /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		9C187C502B8E4BB40009AA6A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9C187C512B8E4BB40009AA6A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C187C3E2B8E4BB30009AA6A /* VRSkyBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C187C562B8E4BB40009AA6A /* Build configuration list for PBXNativeTarget "VRSkyBox" */;
+			buildPhases = (
+				9C187C3B2B8E4BB30009AA6A /* Sources */,
+				9C187C3C2B8E4BB30009AA6A /* Frameworks */,
+				9C187C3D2B8E4BB30009AA6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VRSkyBox;
+			packageProductDependencies = (
+				9C187C442B8E4BB30009AA6A /* RealityKitContent */,
+				9CF1A7BF2BA32F190011CD63 /* Lottie */,
+				9CF1A7C62BA3481A0011CD63 /* SDWebImageSwiftUI */,
+			);
+			productName = VRSkyBox;
+			productReference = 9C187C3F2B8E4BB30009AA6A /* VRSkyBox.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C187C372B8E4BB30009AA6A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					9C187C3E2B8E4BB30009AA6A = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 9C187C3A2B8E4BB30009AA6A /* Build configuration list for PBXProject "VRSkyBox" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C187C362B8E4BB30009AA6A;
+			packageReferences = (
+				9CF1A7BE2BA32F190011CD63 /* XCRemoteSwiftPackageReference "lottie-spm" */,
+				9CF1A7C52BA3481A0011CD63 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
+			productRefGroup = 9C187C402B8E4BB30009AA6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C187C3E2B8E4BB30009AA6A /* VRSkyBox */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C187C3D2B8E4BB30009AA6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C187C4F2B8E4BB40009AA6A /* Assets.xcassets in Resources */,
+				9C187C522B8E4BB40009AA6A /* Preview Assets.xcassets in Resources */,
+				9C187C4D2B8E4BB30009AA6A /* ImageBasedLighting.skybox in Resources */,
+				9CF1A7CB2BA34AB80011CD63 /* ricky.gif in Resources */,
+				9CF1A7CD2BA3E9B40011CD63 /* Empty.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C187C3B2B8E4BB30009AA6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C187C492B8E4BB30009AA6A /* ContentView.swift in Sources */,
+				9CF1A7C42BA3433B0011CD63 /* GifView.swift in Sources */,
+				9C187C472B8E4BB30009AA6A /* VRSkyBoxApp.swift in Sources */,
+				9CF1A7C22BA330C50011CD63 /* LottieView.swift in Sources */,
+				9C187C5A2B8E64F10009AA6A /* SkyBoxControlView.swift in Sources */,
+				9C187C4B2B8E4BB30009AA6A /* ImmersiveView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9C187C542B8E4BB40009AA6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		9C187C552B8E4BB40009AA6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+		9C187C572B8E4BB40009AA6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VRSkyBox/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Mahmud.VRSkyBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Debug;
+		};
+		9C187C582B8E4BB40009AA6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VRSkyBox/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Mahmud.VRSkyBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C187C3A2B8E4BB30009AA6A /* Build configuration list for PBXProject "VRSkyBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C187C542B8E4BB40009AA6A /* Debug */,
+				9C187C552B8E4BB40009AA6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C187C562B8E4BB40009AA6A /* Build configuration list for PBXNativeTarget "VRSkyBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C187C572B8E4BB40009AA6A /* Debug */,
+				9C187C582B8E4BB40009AA6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9CF1A7BE2BA32F190011CD63 /* XCRemoteSwiftPackageReference "lottie-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-spm.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.4.1;
+			};
+		};
+		9CF1A7C52BA3481A0011CD63 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9C187C442B8E4BB30009AA6A /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+		9CF1A7BF2BA32F190011CD63 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9CF1A7BE2BA32F190011CD63 /* XCRemoteSwiftPackageReference "lottie-spm" */;
+			productName = Lottie;
+		};
+		9CF1A7C62BA3481A0011CD63 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9CF1A7C52BA3481A0011CD63 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 9C187C372B8E4BB30009AA6A /* Project object */;
+}
